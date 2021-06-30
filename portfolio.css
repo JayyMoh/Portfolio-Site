@@ -1,3 +1,56 @@
 body {
-    background-color: aqua;
+    background-color: #e9eaec;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* nav menu  */
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: #212530;
+}
+
+nav .navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav .navbar .logo a {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+nav .navbar .menu {
+    display: flex;
+}
+
+nav .navbar .menu li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.navbar .menu li {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.navbar .media-icons a {
+    font-size: 18px;
+    margin: 0 5px;
+    color: white;
+}
+
+
