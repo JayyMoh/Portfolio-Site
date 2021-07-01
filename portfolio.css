@@ -76,18 +76,11 @@ nav {
     border: blue 1px solid;
 }
 
-.skill-row-1 {
+.skill-row {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     border: solid 1px red;
-}
-
-.skill-row-2 {
-    border: solid 1px red;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .skill-img {
@@ -100,6 +93,14 @@ nav {
 .projects {
     height: 100vh;
     background: #cfcfcf;
+}
+
+.projects-content {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px red;
 }
 
 /* contact  */
