@@ -27,13 +27,15 @@
     <!-- home  -->
     <section class="home">
         <div class="container">
-            <div class="row align-items-end">
-                <div class="col">
-                    <div class="home-image text-center">
-                        <img class="avatar" src="https://media.discordapp.net/attachments/822281280615219211/828020796982427730/20228576_10154800100873803_2780832762885731063_n.jpg" alt="avatar">
-                    </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-2">
                 </div>
-                <div class="col">    
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="home-image">
+                        <img class="avatar" src="https://media.discordapp.net/attachments/822281280615219211/828020796982427730/20228576_10154800100873803_2780832762885731063_n.jpg" alt="avatar">
+                    </div> 
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-6 col-12">       
                     <div class="home-content">
                         <h1 class="name">Jonathan Mohr</h1>
                         <h2 class="work">Web Developer located in</h2>
@@ -45,7 +47,8 @@
                             </button>
                         </div>
                     </div>
-                </div>  
+                </div> 
+                <div class="col-lg-3 col-md-2"></div> 
             </div>
         </div>
     </section>
@@ -55,10 +58,59 @@
     <section class="about">
         <div class="container">
             <div class="row">
-                <h3 class="mt-10 mb-3">About Me</h3>
-            </div>
-            <div class="row">
-                <h3 class="mt-20 mb-3">Skills</h3>
+                <div class="col-12 about-content">
+                    <h3 class="mb-3">About Me</h3>
+                    <div class="about-text">
+                        My name is Jonathan Mohr and I’m a former CIT student who fell 
+                        in love with my programming courses along the way. As a recent 
+                        graduate of the Software Engineering Immersive program at General 
+                        Assembly, I am fully prepared and eager to pursue my passion of creation 
+                        and troubleshooting no matter the medium. 
+                    </div>
+                </div>
+                <div class="col-12 skills-content">
+                    <h3>Skills</h3>
+                    <div class="row skill-row-1">
+                        <div class="col-2">
+                            <h4>HTML5</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>CSS3</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>React</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>JSX</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>Bootstrap</h4>
+                        </div>
+                    </div>
+                    <div class="row skill-row-2">
+                        <div class="col-2">
+                            <img class="skill-img" src="./images/html5.png" alt="HTML logo">
+                        </div>
+                        <div class="col-2">
+                            <img class="skill-img" src="./images/CSS3.png" alt="CSS logo">
+                        </div>
+                        <div class="col-2">
+                            <img class="skill-img" src="./images/JS.png" alt="JavaScript logo">
+                        </div>
+                        <div class="col-2">
+                            <img class="skill-img" src="./images/React.png" alt="React logo">
+                        </div>
+                        <div class="col-2">
+                            <img class="skill-img" src="./images/React.png" alt="React JSX logo">
+                        </div>
+                        <div class="col-2">
+                            <img class="skill-img" src="./images/Bootstrap_(front-end_framework)-Logo.wine.svg" alt="Bootstrap logo">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>  
     </section>
@@ -86,5 +138,7 @@
             <a href="#"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

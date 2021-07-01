@@ -42,21 +42,21 @@ nav {
 }
 
 .home-content {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .home-image {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .avatar {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     box-shadow: 1px 2px 2px 2px #63666d;
 }
 
 .name {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .fa-angle-double-down {
@@ -64,11 +64,36 @@ nav {
 }
 
 /* about  */
-.about {
-    height: 100vh;
+.about-content {
+    min-height: 200px;
+    margin-top: 70px;
+    border: red 1px solid;
 }
 
+.skills-content {
+    justify-content: center;
+    min-height: 400px;
+    border: blue 1px solid;
+}
 
+.skill-row-1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px red;
+}
+
+.skill-row-2 {
+    border: solid 1px red;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-img {
+    height: 100px;
+    width: 100px;
+}
 
 
 /* projects  */
@@ -104,4 +129,20 @@ nav {
 
 .fab {
     margin: 0 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .home-content {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .home-image {
+        text-align: center;
+    }
+
+    .avatar {
+        height: 150px;
+        width: 150px;
+    }
 }
