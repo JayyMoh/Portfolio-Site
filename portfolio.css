@@ -70,7 +70,7 @@ nav {
 /* about  */
 .about-content {
     min-height: 200px;
-    margin-top: 70px;
+    margin-top: 100px;
     border: red 1px solid;
 }
 
@@ -136,6 +136,20 @@ nav {
 .contact {
     height: 100vh;
 }
+
+.contact-form {
+    margin-top: 120px;
+}
+
+.form-container {
+    border: 1px solid blue;
+}
+
+.form-field {
+    align-self: center;
+    width: 500px;
+}
+
 
 
 /* footer  */
