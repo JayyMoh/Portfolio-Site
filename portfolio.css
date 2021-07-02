@@ -70,21 +70,34 @@ nav {
 /* about  */
 .about-content {
     min-height: 200px;
-    margin-top: 100px;
-    border: red 1px solid;
+    margin-top: 50px;
+    border: #212530 3px solid;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #63666d;
+    color: white;
+}
+
+.about-title {
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
 
 .skills-content {
     justify-content: center;
     min-height: 400px;
-    border: blue 1px solid;
+    border-radius: 10px;
+    border: #212530 3px solid;
+    background-color: #63666d8e;
+    color: white;
 }
 
 .skill-row {
     width: 90%;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: solid 1px red;
+    border-top: solid 1px black;
 }
 
 .skill-img {
@@ -100,16 +113,22 @@ nav {
 }
 
 .projects-content {
-    margin-top: 100px;
+    margin-top: 80px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    border: solid 1px red;
+    border: solid 3px #2b313f;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
 }
 
 .card {
     border-radius: 2%;
     height: 500px;
+    background-color: #63666d8e;
+    color: black;
+    border: 2px solid #2b313f;
 }
 
 .card-title {
@@ -135,14 +154,19 @@ nav {
 /* contact  */
 .contact {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .contact-form {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 .form-container {
+    margin-top: 200px;
     border: 1px solid blue;
+    padding: 20px;
 }
 
 .form-field {
@@ -150,7 +174,13 @@ nav {
     width: 500px;
 }
 
+.message-field {
+    height: 100px;
+}
 
+.submit-btn {
+    width: 50px;
+}
 
 /* footer  */
 .footer {

@@ -58,8 +58,8 @@
     <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-12 about-content mb-3">
-                    <h3 class="mb-3 section-head">About Me</h3>
+                <div class="col-12 about-content mb-4">
+                    <h3 class="mb-3 section-head about-title">About Me</h3>
                     <div class="about-text">
                         My name is Jonathan Mohr and I’m a former CIT student who fell 
                         in love with my programming courses along the way. As a recent 
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-12 skills-content">
-                    <h3 class="section-head">Skills</h3>
+                    <h3 class="section-head text-center mt-2 mb-3">Skills</h3>
                     <div class="row skill-row text-center">
                         <div class="col-2 ">
                             <h4>HTML5</h4>
@@ -219,15 +219,23 @@
     <section class="contact">
         <div class="container">
             <div class="form-container">
+                <div class="contact-title">
+                    <h3 class="contact-head text-center">Contact Me</h3>
+                </div>
                 <div class="contact-form">
                     <form class="d-flex flex-column" action="https://formsubmit.co/jonmohr@outlook.com" method="POST">
+                        <label class="form-field" for="first-name">First Name: </label>
                         <input class="mb-2 form-field" type="text" name="first-name" placeholder="First Name" required>
+                        <label class="form-field" for="last-name">Last Name: </label>
                         <input class="mb-2 form-field" type="text" name="last-name" placeholder="Last Name" required>
+                        <label class="form-field" for="email">Email: </label>
                         <input class="mb-2 form-field" type="email" name="email" placeholder="Email Address" required>
+                        <label class="form-field" for="phone-number">Phone Number: </label>
                         <input class="mb-2 form-field" type="text" name="phone-number" placeholder="(555) 555-5555">
-                        <input class="mb-2 form-field" type="text" name="message" placeholder="Message">
+                        <label class="form-field" for="message">Message: </label>
+                        <input class="mb-2 form-field message-field" type="text" name="message" placeholder="Message">
                         <input type="hidden" name="_autoresponse" value="Thank you for reaching out. I will get back with you as soon as I can.">
-                        <button class="mb-2 form-field" type="submit">Send</button>
+                        <button class="mb-2 form-field submit-btn" type="submit">Send</button>
                     </form>
                 </div>
             </div>
