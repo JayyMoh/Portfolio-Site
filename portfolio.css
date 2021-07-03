@@ -21,6 +21,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -141,6 +142,7 @@ nav {
     background-color: #63666d8e;
     color: black;
     border: 2px solid #2b313f;
+    z-index: 0;
 }
 
 .card-title {
