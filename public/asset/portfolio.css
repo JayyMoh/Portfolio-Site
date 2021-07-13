@@ -43,16 +43,13 @@ nav {
     align-items: center;
     flex-direction: column;
     background: #cfcfcf;
-    margin-top: 50px;
 }
 
-.home-content {
-    margin-top: 200px;
+.home-content, .home-image {
+    margin-top: 250px;
 }
 
-.home-image {
-    margin-top: 200px;
-}
+
 .avatar {
     height: 200px;
     width: 200px;
@@ -65,7 +62,7 @@ nav {
 }
 
 .fa-angle-double-down {
-    color: #63666d;
+    color: white;
 }
 
 .view-work-btn {
@@ -78,7 +75,7 @@ nav {
 /* about  */
 .about-content {
     min-height: 200px;
-    margin-top: 90px;
+    margin-top: 100px;
     border: #212530 3px solid;
     padding: 15px;
     border-radius: 10px;
@@ -127,7 +124,7 @@ nav {
 
 .projects-content {
     margin-top: 120px;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border: solid 3px #2b313f;
@@ -138,7 +135,7 @@ nav {
 
 .card {
     border-radius: 2%;
-    height: 500px;
+    height: 520px;
     background-color: #63666d8e;
     color: black;
     border: 2px solid #2b313f;
@@ -168,7 +165,7 @@ nav {
     color: white;
     background-color: rgb(0, 132, 255);
     box-shadow: 1px 1px 1px 1px black;
-    margin: 0 5px;
+    margin: 2px 5px;
 }
 
 
