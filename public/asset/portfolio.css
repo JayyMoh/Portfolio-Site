@@ -317,26 +317,23 @@ a {
 
 @media screen and (max-width: 370px) {
     #About {
-        height: calc(100vh + 400px);
+        height: calc(100vh + 200px);
     }
 
     .about-content {
-        margin-top: 500px;
+        margin-top: 240px;
     }
 
     #Projects {
-        height: calc(100vh + 1400px);
+        height: calc(100vh + 1100px);
     }
 
     .projects-content {
-        margin-top: 1350px;
+        margin-top: 1200px;
     }
 
     #Contact {
-        height: calc(100vh + 100px);
+        height: 100vh;
     }
 
-    .form-container {
-        margin-top: 150px;
-    }
 }
