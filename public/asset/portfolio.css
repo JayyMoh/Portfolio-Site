@@ -311,7 +311,7 @@ a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 370px) {
     #About {
         height: calc(100vh + 400px);
     }
